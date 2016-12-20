@@ -8,7 +8,7 @@ body {
 
 
 .em-text {
-    color: rgb(139, 184, 50) !important;
+    color: #474646 !important;
 }
 .col-md-4{
     margin-bottom: 20px;
@@ -19,7 +19,9 @@ section {
 }
 
 .jumbotron{
-
+    background-color: #474646;
+    color: #ffffff;
+    height: 100%;
 
 }
 
@@ -49,7 +51,7 @@ img.big-logo{
 }
 
 section.feature {
-    background: #8bb832;
+    background: #474646;
     color:white;
     padding: 40px;
     overflow: auto;
@@ -70,7 +72,7 @@ section#title-bar {
     padding: 0;
     margin: 0;
     height: 80px;
-    background: #8bb832;
+    background: #474646;
     color: white;
 }
 
@@ -149,7 +151,6 @@ footer p{
 @media(max-width: 500px) {
     .jumbotron {
         height: 450px !important;
-        background: aquamarine;
         text-align: center;
     }
     .jumbotron img.app-btn{
